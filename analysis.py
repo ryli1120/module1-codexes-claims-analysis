@@ -1,6 +1,10 @@
+#Hw assignment 1
 import pandas as pd
 
 df = pd.read_csv('https://data.cms.gov/sites/default/files/2023-04/67157de9-d962-4af0-bf0e-3578b3afec58/inpatient.csv', sep=';')
+
+df.columns
+
 
 print(data.head())
 
